@@ -1,0 +1,27 @@
+.tabs{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    display:flex;
+    border-top: 1px solid #eee;
+    z-index: 100;
+    background: #fff;
+}
+.tabs a{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+.tabs a i{
+    font-size: 20px;
+}
+.tabs a.active{
+    color: lightskyblue;
+}

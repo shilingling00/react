@@ -1,0 +1,20 @@
+.tabs{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    display:flex;
+}
+.tabs a{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.tabs a.active{
+    color: lightskyblue;
+}

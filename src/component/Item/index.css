@@ -1,0 +1,33 @@
+.box{
+    height: 50px;
+    line-height: 50px;
+    padding: 0 15px;
+    background: #ffffff;
+    box-sizing: border-box;
+}
+.box a{
+    display: block;
+    text-decoration: none;
+    height: 49px;
+    border-bottom: 1px solid #e3e3e3;
+}
+.box i{
+    width: 15px;
+    height: 15px;
+    color: #999;
+    font-size: 20px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+.box .text{
+    padding-left: 23px;
+    font-size: 16px;
+    color: #333333;
+    line-height: 50px;
+}
+.box .more{
+    float: right;
+    font-size: 16px;
+    color: #999999;
+    padding-right: 10px;
+}
